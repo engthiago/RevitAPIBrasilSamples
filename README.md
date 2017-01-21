@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=ovd-wLswOO4
 Repo for Revit API Brasil users on facebook
 https://www.facebook.com/groups/1766576276918452/
 
-Although this the group itself being brazilian, all variables, comments and summary will be written in english.
+Although the group itself being brazilian, all variables, comments and summary will be written in english.
 
 More info will be provided in the future.
 
