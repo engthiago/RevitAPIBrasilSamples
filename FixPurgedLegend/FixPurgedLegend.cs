@@ -16,8 +16,9 @@ namespace FixPurgedLegend
         {
             try 
 			{
-				Document doc_source = app.ActiveUIDocument.Document;
-				Document doc_destiny = app.Application.Documents.Cast<Document>().First(a=>a.Title!=doc_source.Title);
+				UIApplication uiapp = commandData.Application;
+				Document doc_source = uiapp.ActiveUIDocument.Document;
+				Document doc_destiny = uiapp.Application.Documents.Cast<Document>().First(a=>a.Title!=doc_source.Title);
 				CopyPasteOptions op = new CopyPasteOptions();
 				FilteredElementCollector col = new FilteredElementCollector(doc_source);
 				col = col.WhereElementIsNotElementType().OfClass(typeof(View));
